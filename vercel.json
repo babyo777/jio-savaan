@@ -30,5 +30,7 @@
       ]
     }
   ],
-  "buildCommand": "bun run build:vc"
+  "buildCommand": "bun build",
+  "outputDirectory": "dist",
+  "installCommand": "bun install"
 }

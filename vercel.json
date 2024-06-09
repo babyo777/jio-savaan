@@ -37,6 +37,5 @@
         }
       ]
     }
-  ],
-  "buildCommand": "npm run build:vc"
+  ]
 }

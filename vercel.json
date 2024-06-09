@@ -1,8 +1,12 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "rewrites": [{ "source": "(.*)", "destination": "/api" }],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api"
+    }
+  ],
   "regions": ["bom1"],
-  "outputDirectory": "dist",
   "headers": [
     {
       "source": "(.*)",
@@ -25,13 +29,14 @@
         },
         {
           "key": "Author",
-          "value": "Sumit Kolhe"
+          "value": "rajput-hemant@github"
         },
         {
           "key": "Github",
-          "value": "https://github.com/sumitkolhe/jiosaavn-api"
+          "value": "https://github.com/rajput-hemant/jiosaavn-api-ts"
         }
       ]
     }
-  ]
+  ],
+  "buildCommand": "npm run dev:node"
 }
